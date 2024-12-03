@@ -74,3 +74,23 @@ console.log(q); // Output: 5
 //Testing concantenation of strings and values
 let favouriteAnimal = 'tiger';
 console.log('My favourite animal: '+ favouriteAnimal);
+
+/*Create a variable called myName and assign it your name.
+Create a variable called myCity and assign it your favorite city’s name.
+Then use a single template literal to interpolate my variables into the sentence "My name is NAME. My favorite city is CITY." 
+Interpolate 
+*/
+const myName = 'Nigel';
+const myCity = 'Purmerend';
+console.log(`My name is ${myName}. My favorite city is ${myCity}.`) //interpolation
+
+
+
+
+/*Use console.log() to print the typeof newVariable.
+Great, now let’s check what happens if we reassign the variable. Below the console.log() statement, reassign newVariable to 1.
+Since you assigned this new value to newVariable, it has a new type! On the line below your reassignment, use console.log() to print typeof newVariable again.*/
+let newVariable = 'Playing around with typeof.'; //Already given. Excercise starts from line below
+console.log(typeof newVariable);
+newVariable =1;
+console.log(typeof newVariable);
